@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+}
+.bg-img {
+    background-image: url("../images/uni1.png");
+    height: 97vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-position: left; */
+}
+.nav {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+
+}
+

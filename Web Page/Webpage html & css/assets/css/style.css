@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+img{
+
+    height: 99vh;
+    width: 100%;
+    position: relative;
+}
+.top-left{
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.top-right{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* .nav{
+    background-color: lightgray;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.nav ul li{
+    text-decoration: none;
+} */
